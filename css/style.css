@@ -1,0 +1,113 @@
+@font-face {
+    font-family: led_digital_7;
+    src: url('../fonts/led_digital_7.ttf') format("truetype");
+}
+
+body {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.timeText {
+    font-family: led_digital_7;
+    text-align: center;
+    color: #3F51B5;
+    font-size: 50px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.dayText {
+    text-align: center;
+    color: #3F51B5;
+    font-size: 25px;
+    margin-top: -50px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.Country {
+    color: #3F51B5;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    border-left: 5px solid;
+}
+
+.clock {
+    position: relative;
+    top: 0px;
+    width: 580px;
+    height: 580px;
+    background-image: url('../images/clock.png');
+    margin: 0 auto;
+}
+
+.clock div {
+    position: absolute;
+    top: 0px;
+    left: 288px;
+}
+
+.hour {
+    margin-top: 76px;
+    margin-left: -5px;
+    transform-origin: 50% 83%;
+}
+
+.min {
+    margin-top: -0.3px;
+    margin-left: -5px;
+    transform-origin: 50% 86.8%;
+}
+
+.sec {
+    margin-top: -0.1px;
+    margin-left: -5px;
+    transform-origin: 50% 86.8%;
+}
+
+button {
+    padding: 5px 10px;
+    background: #3F51B5;
+    color: #EDEFF1;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+/* table {
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+th {
+    background-color: #EEE;
+    width: 10em;
+}
+
+td {
+    color: #013980;
+    font-size: 12px;
+}
+
+th,
+td {
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: solid 1px;
+    vertical-align: top;
+    font-weight: normal;
+    text-align: left;
+} */
